@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>Ye Yuan FCC project: Build Technical Document</title>
+</head>
+
+<body>
+<nav id="navbar">
+  <header>Nodejs Beginner</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li><a class="nav-link" href="#Nodejs_Basics">Nodejs Basics</a></li>
+    <li><a class="nav-link" href="#Nodejs_MySQL">Nodejs MySQL</a></li>
+    <li><a class="nav-link" href="#Nodejs_MongoDB">Nodejs MongoDB</a></li>
+    <li><a class="nav-link" href="#Raspberry">Raspberry</a></li>
+    <li><a class="nav-link" href="#Nodejs_Reference">Nodejs Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>What is Node.js</p>
+      <ul>
+        <li>Node.js is an open source server environment</li>
+        <li>Node.js is free</li>
+        <li>Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)</li>
+        <li>Node.js uses JavaScript on the server/li>
+      </ul>
+      <p>Code Example:</p>
+      <code>
+        var http = require('http');
+        http.createServer(function (req, res) {
+        res.writeHead(200, {'Content-Type': 'text/plain'});
+        res.end('Hello World!');
+         }).listen(8080);
+      </code>
+      <code>
+      console.log('This example is different!');
+      </code>
+      <code>
+      console.log('The result is displayed in the Command Line Interface');
+      </code>
+    </article>
+  </section>
+  <section class="main-section" id="Nodejs_Basics">
+    <header>Nodejs Basics</header>
+    <article>
+      <p>Basic uses are showing below: </p>
+      <ul>
+        <li>Modules</li>
+        <li>HTTP Module</li>
+        <li>File System</li>
+        <li>URL Module</li>
+        <li>NPM</li>
+        <li>Events</li>
+        <li>Upload Files</li>
+        <li>Email</li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Nodejs_MySQL">
+    <header>Nodejs MySQL</header>
+    <article>
+      <p>Node.js Basics</p>
+      <p>Create Database</p>
+      <p>Create Table</p>
+      <p>Insert Into</p>
+      <p>Select From</p>
+      <p>Where</p>
+      <p>Order By</p>
+      <p>Others</p>
+    </article>
+  </section>
+  <section class="main-section" id="Nodejs_MongoDB">
+    <header>Nodejs MongoDB</header>
+    <article>
+      Download and install mongodb package:
+      <code>
+         C:\Users\Your Name>npm install mongodb
+      </code>
+      Node.js can use this module to manipulate MongoDB databases:
+      Select the code in the pad and hit Ctrl+R to watch it unfold in your
+      browser!
+      <code>
+         var mongo = require('mongodb');
+      </code>
+    </article>
+  </section>
+  <section class="main-section" id="Raspberry">
+    <header>Raspberry</header>
+    <p>
+    Raspberry Pi is a small, multi-use computer.
+    With Node.js you can do amazing things with your Raspberry Pi.
+    </p>
+<ul>
+        <li>Raspi GPIO</li>
+        <li>RasPi Blinking LED</li>
+        <li>RasPi LED & Pushbutton</li>
+        <li>RasPi Flowing LEDs</li>
+        <li>RasPi WebSocket</li>
+      </ul>
+  </section>
+  <section class="main-section" id="Nodejs_Reference">
+    <header>Nodejs Reference</header>
+    <article>
+    <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a href="https://www.w3schools.com/nodejs/default.asp"
+            target="_blank">w3schools</a>
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
+</body>
+</html>
